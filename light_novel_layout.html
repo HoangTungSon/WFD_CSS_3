@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="main">
+    <div id="head">
+        <img src="home/Screenshot from 2019-10-16 10-13-51.png" id="image"><b id="name">NOVEL</b>
+        <input type="text" id="search" placeholder="Search by novel or author"/>
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="head-link">
+        <table id="table">
+            <tr>
+                <td><a href="#home">Home</a></td>
+                <td><a href="#category">Category</a></td>
+                <td><a href="#newNovel">New novel</a></td>
+                <td><a href="#manga">Manga</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="left">
+        <table id="categoryTable" >
+            <tr>
+                <td><h2><a href="#Category">Category</a></h2></td>
+            </tr>
+            <tr>
+                <td><h5><a href="#Action">Action</a></h5></td>
+            </tr>
+            <tr>
+                <td><h5><a href="#Comedy">Comedy</a></h5></td>
+            </tr>
+            <tr>
+                <td><h5><a href="#Drama">Drama</a></h5></td>
+            </tr>
+            <tr>
+                <td><h5><a href="#Fantasy">Fantasy</a></h5></td>
+            </tr>
+            <tr>
+                <td><h5><a href="#Horror">Horror</a></h5></td>
+            </tr>
+            <tr>
+                <td><h5><a href="#Manga">Manga</a></h5></td>
+            </tr>
+            <tr>
+                <td><h5><a href="#Martial Art">Martial Art</a></h5></td>
+            </tr>
+<!--            <tr>-->
+<!--                <td><h5><a href="#Mystery">Mystery</a></h5></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td><h5><a href="#Slice of life">Slice of life</a></h5></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td><h5><a href="#Thriller">Thriller</a></h5></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td><h5><a href="#Tragedy">Tragedy</a></h5></td>-->
+<!--            </tr>-->
+        </table>
+    </div>
+    <div id="content"></div>
+</div>
+</body>
+<style>
+    body {
+        font-family: Arial, Tahoma;
+        font-size: 12px;
+    }
+
+    #main {
+        width: 1000px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #search {
+        position: relative;
+        left: 400px;
+        height: 30px;
+        width: 250px;
+        text-align: left;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #CDCDCD;
+        background-color: antiquewhite;
+        margin-bottom: 5px;
+        clear: both;
+    }
+
+    #image {
+        position: relative;
+        top: 20px;
+        left: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    #name {
+        position: relative;
+        left: 30px;
+        top: 15px;
+        font-size: 60px;
+    }
+
+    #searchButton {
+        position: relative;
+        left: 400px;
+        height: 35px;
+        text-align: left;
+        line-height: 30px;
+        background-color: antiquewhite;
+        margin-bottom: 5px;
+    }
+
+    #head {
+        height: 100px;
+        margin-bottom: 10px;
+        border: 1px solid #CCDDCC;
+        background-color: #F5F5F5;
+    }
+
+    #head-link {
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #CDCDCD;
+        background-color: #F5F5F5;
+        margin-bottom: 5px;
+        clear: both;
+
+        text-align: left;
+
+    }
+
+    #table {
+        width: 900px;
+        text-align: center;
+    }
+
+    #left {
+        width: 150px;
+        min-height: 400px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background-color: #F5F5F5;
+        margin-bottom: 5px;
+
+        text-align: center;
+    }
+
+    #categoryTable {
+        height: 200px;
+        text-align: left;
+        position: relative;
+        left: 20px;
+    }
+
+    #content {
+        width: 825px;
+        min-height: 400px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+</style>
+</html>
